@@ -1,8 +1,8 @@
 def multiplication_function(numbers):
-    list = numbers.split()
+    list_of_numbers = numbers.split()
     # 1 is a neutral number for multiplication
     ret = 1
-    for num in list:
+    for num in list_of_numbers:
         if num.isdigit():
             ret = int(num) * ret
         else:
