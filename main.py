@@ -1,0 +1,17 @@
+def multiplication_function(numbers):
+    list = numbers.split()
+    # 1 is a neutral number for multiplication
+    ret = 1
+    for num in list:
+        if num.isdigit():
+            ret = int(num) * ret
+        else:
+            print(" make sure entries should contain only digits")
+            exit(1)
+    return ret
+
+
+if __name__ == "__main__":
+    numbers = input("please enter your numbers\n")
+    mul = multiplication_function(numbers)
+    print(mul)
