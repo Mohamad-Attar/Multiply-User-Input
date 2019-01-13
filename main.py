@@ -14,4 +14,5 @@ def multiplication_function(numbers):
 if __name__ == "__main__":
     numbers = input("please enter your numbers\n")
     mul = multiplication_function(numbers)
+    # Output the result
     print(mul)
