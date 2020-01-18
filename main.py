@@ -1,5 +1,5 @@
 def multiplication_function(numbers):
-    list_of_numbers = numbers.split()
+    list_of_numbers = numbers.split(":")
     # 1 is a neutral number for multiplication
     ret = 1
     for num in list_of_numbers:
